@@ -11,13 +11,12 @@
 Originally conceptualized as a console application, this project was entirely rewritten for the web, focusing on a fluid user experience, responsive design, and clean state management.
 
 ### Live Demo
-Play the game live here: [**Insert your Vercel Link Here**](https://your-project-name.vercel.app)
+Play the game live here: [**Vercel**](https://word-guess-game-eta.vercel.app/)
 
 ## Key Features
 
 - **Sleek UI/UX:** Dark mode interface crafted with Tailwind CSS for a modern, eye-friendly experience.
 - **Smart Validation:** Input sanitization that automatically rejects numbers and special characters.
-- **Dynamic Gameplay:** Real-time feedback with color-coded states (🟢 Success, 🔴 Danger) for attempts and results.
 - **Curated Word Library:** Includes a custom dictionary of 100+ unaccented words for fair and seamless gameplay.
 - **Fully Responsive:** Playable on both desktop and mobile devices.
 
@@ -31,7 +30,7 @@ Play the game live here: [**Insert your Vercel Link Here**](https://your-project
 ## How to Play
 
 1. The game starts with a hidden word represented by blank slots (`-`).
-2. Type a letter in the input field and hit **Enter** (or click the submit button).
+2. Type a letter in the input field and hit **Submit** (or click the submit button).
 3. If the letter exists in the word, it will be revealed in its correct position(s).
 4. If the letter is wrong, you lose 1 of your 10 total attempts.
 5. **Win** by revealing the entire word before running out of attempts, or **Lose** if your attempts hit zero.
