@@ -58,18 +58,18 @@ export default function WordGame() {
   };
 
   return (
-    <div className="py-10 bg-mauve-900 flex items-center justify-center p-4 text-mauve-50 font-mono">
-      <div className="w-full max-w-xl rounded-xl p-6 text-center">
+    <div className="py-10 bg-mauve-900 flex items-center justify-center text-mauve-50 font-mono">
+      <div className="w-full max-w-6xl rounded-xl p-6 text-center">
 
         <h1 className="text-3xl font-bold mb-2 text-mauve-300">Word Guess</h1>
         <p className="text-mauve-300 mb-8 text-sm">Guess the hidden word</p>
 
         {/* Exibição da Palavra */}
-        <div className="flex justify-center gap-2 mb-8">
+        <div className="flex justify-center mb-8">
           {gameBoard.map((letter, index) => (
             <div
               key={index}
-              className="w-16 h-16 flex items-center justify-center text-4xl font-bold border-2 border-mauve-600 bg-mauve-800 rounded-md uppercase"
+              className="w-20 h-20 flex items-center justify-center text-4xl font-bold border border-mauve-600 bg-mauve-800 uppercase"
             >
               {letter !== '-' ? letter : ''}
             </div>
