@@ -45,23 +45,32 @@ Want to run this project locally? Follow these simple steps:
 
 ### Installation
 
-**Clone the repository:**
-bash
+
+
+## 💻 Getting Started (Local Setup)
+
+Want to run this project locally? Follow these simple steps:
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+Clone the repository, install the dependencies, and start the local server by running the following commands in your terminal:
+
+```bash
+# 1. Clone the repository
 git clone [https://github.com/devbianchi/word-guess-game.git](https://github.com/devbianchi/word-guess-game.git)
 
-**Navigate to the project directory:**
-bash
+# 2. Navigate to the project directory
 cd word-guess
 
-**Install dependencies:**
-Bash
+# 3. Install dependencies
 npm install
 
-**Start the development server:**
-Bash
+# 4. Start the development server
 npm run dev
-
-**Open http://localhost:5173 in your browser to see the app running.**
+```
 
 ### Roadmap (Future Improvements)
 
